@@ -24,8 +24,8 @@
 // const myn2 = myArr.splice(1, 3)
 // console.log("C", myArr);
 // console.log(myn2);
-const MyHeroes = ["Hitesh", "Raghav" , "Remo"]
-const MySinger = ["Pritam", "Jubin Nutiyal", "Rahat Fatehi"]
+// const MyHeroes = ["Hitesh", "Raghav" , "Remo"]
+// const MySinger = ["Pritam", "Jubin Nutiyal", "Rahat Fatehi"]
 
 // MyHeroes.push(MySinger)
 // console.log(MyHeroes)
@@ -36,3 +36,15 @@ const MySinger = ["Pritam", "Jubin Nutiyal", "Rahat Fatehi"]
 // const MyArr = [1, 2, 3, [4, 5, 6], 7, [8, 9, 10]]
 // const myArr2 = MyArr.flat(Infinity)
 // console.log(myArr2);
+// console.log(Array.isArray("Pritam"));
+// console.log(Array.from("Pritam"));
+// console.log(Array.from({name:"Pritam"}));
+
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
+// console.log(Array.of(score1, score2,score3));
+
+// for any confusion or more guide visit the mdn page of array javascript which is below link
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
