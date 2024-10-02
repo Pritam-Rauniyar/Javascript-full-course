@@ -8,7 +8,7 @@ const addNum = 0;
 //         return acc + currVal1        
 //     }, 0)
 const addAllNum = MyNumbers.reduce( (acc, curr)  => acc + curr, 0)
-// console.log(addAllNum);
+console.log(addAllNum);
 
 
 
