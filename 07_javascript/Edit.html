@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About DOM</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+   function addlLanguage(langname) {
+    const li = document.createElement('li')
+    li.innerHTML = `${langname}`
+    document.querySelector('.language').appendChild(li)
+    
+   }
+   addlLanguage("C++")
+   addlLanguage("Ruby")
+   addlLanguage("Python")
+   function addlLanguage1(MyLang) {
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(MyLang))
+    document.querySelector('.language').appendChild(li)
+
+   }
+   addlLanguage1('Go')
+
+   // edit
+   const secondlang = document.querySelector("li:nth-child(2)")
+   const newli = document.createElement('li')
+   newli.textContent = "Bash"
+   secondlang.replaceWith(newli)
+   //edit
+   const firstLang = document.querySelector("li:nth-child(3)")
+   firstLang.outerHTML = "<li>Kotline</>"
+    //remove
+   const lastLang = document.querySelector('li:nth-child(5)')
+   lastLang.remove()
+</script>
+</html>
