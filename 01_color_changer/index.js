@@ -10,6 +10,7 @@ buttons.forEach( function(button){
         }
         if (event.target.id === 'white') {
             body.style.backgroundColor = event.target.id;
+            body.style.color = "black"
         }
         if (event.target.id === 'blue') {
             body.style.backgroundColor = event.target.id;
@@ -19,7 +20,7 @@ buttons.forEach( function(button){
         }
         if (event.target.id === 'pink') {
             body.style.backgroundColor = event.target.id;
-        }
+        }        
     })
     
 })
