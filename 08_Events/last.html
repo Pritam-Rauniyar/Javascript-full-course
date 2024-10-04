@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settimeout</title>
+</head>
+<body>
+    <h1>Javascript with Pritam Rauniyar</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // let myName = ""   
+    // setTimeout(function(){
+    //     if (myName === "Pritam Rauniyar") {
+           
+    //         console.log(myName);           
+    //     } else if (myName === '') {
+    //         console.log("Please fill your name");
+            
+    //     }
+    //     console.log("Javascript learning with Pritam Rauniyar");
+        
+    // }, 5000)
+    const sayDate = function(str) {
+        console.log(str,Date.now());      
+        
+    }
+    const interVal = setInterval(sayDate, 1000, "Hi")
+    clearInterval(interVal)
+</script>
+</html>
