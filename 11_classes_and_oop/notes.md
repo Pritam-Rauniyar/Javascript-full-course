@@ -110,6 +110,10 @@ sparrow.greet(); // Hello, my name is Sparrow and I am 1 years old.
 sparrow.fly(); // Flying!
 Conclusion
 While JavaScript's class syntax offers a familiar structure for those coming from class-based languages, it's important to remember that under the hood, JavaScript is still using prototypes. Understanding this prototype-based nature can provide deeper insights into how inheritance and method resolution work in JavaScript.
-
+topic to learn
+abstraction
+encapsulation
+inheritance
+polumorphism
 
 
